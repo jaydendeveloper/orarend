@@ -1,54 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Óra hozzáadása</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Főoldal</a></li>
+        <li><a href="/">Szerkesztés</a></li>
+      </ul>
+    </nav>
     <div class="classInputs">
-        <h2>Órarend szerkesztése</h2>
-        <form id="addClassForm">
-            
+      <h2>Órarend szerkesztése</h2>
+      <form id="addClassForm">
         <select name="day" id="day">
-            <option value="hetfo">Hétfő</option>
-            <option value="kedd">Kedd</option>
-            <option value="szerda">Szerda</option>
-            <option value="csutortok">Csütörtök</option>
-            <option value="pentek">Péntek</option>
-            <option value="szombat">Szombat</option>
-            <option value="vasarnap">Vasárnap</option>
+          <option value="hetfo">Hétfő</option>
+          <option value="kedd">Kedd</option>
+          <option value="szerda">Szerda</option>
+          <option value="csutortok">Csütörtök</option>
+          <option value="pentek">Péntek</option>
+          <option value="szombat">Szombat</option>
+          <option value="vasarnap">Vasárnap</option>
         </select>
-            <label for="className">1. Óra neve:</label>
-            <input type="text" id="class_1" name="ORA_1">
-            <label for="classTime">2. Óra neve:</label>
-            <input type="text" id="class_2" name="ORA_2">
-            <label for="classTime">3. Óra neve:</label>
-            <input type="text" id="class_3" name="ORA_3">
-            <label for="classTime">4. Óra neve:</label>
-            <input type="text" id="class_4" name="ORA_4">
-            <label for="classTime">5. Óra neve:</label>
-            <input type="text" id="class_5" name="ORA_5">
-            <label for="classTime">6. Óra neve:</label>
-            <input type="text" id="class_6" name="ORA_6">
-            <label for="classTime">7. Óra neve:</label>
-            <input type="text" id="class_7" name="ORA_7">
-            <label for="classTime">8. Óra neve:</label>
-            <input type="text" id="class_8" name="ORA_8">
-            <label for="classTime">9. Óra neve:</label>
-            <input type="text" id="class_9" name="ORA_9">
-            <label for="classTime">10. Óra neve:</label>
-            <input type="text" id="class_10" name="ORA_10">
-            <label for="classTime">11. Óra neve:</label>
-            <input type="text" id="class_11" name="ORA_11">
-            <label for="classTime">12. Óra neve:</label>
-            <input type="text" id="class_12" name="ORA_12">
+        <label for="className">1. Óra neve:</label>
+        <input type="text" id="class_1" name="ORA_1" />
+        <label for="classTime">2. Óra neve:</label>
+        <input type="text" id="class_2" name="ORA_2" />
+        <label for="classTime">3. Óra neve:</label>
+        <input type="text" id="class_3" name="ORA_3" />
+        <label for="classTime">4. Óra neve:</label>
+        <input type="text" id="class_4" name="ORA_4" />
+        <label for="classTime">5. Óra neve:</label>
+        <input type="text" id="class_5" name="ORA_5" />
+        <label for="classTime">6. Óra neve:</label>
+        <input type="text" id="class_6" name="ORA_6" />
+        <label for="classTime">7. Óra neve:</label>
+        <input type="text" id="class_7" name="ORA_7" />
+        <label for="classTime">8. Óra neve:</label>
+        <input type="text" id="class_8" name="ORA_8" />
+        <label for="classTime">9. Óra neve:</label>
+        <input type="text" id="class_9" name="ORA_9" />
+        <label for="classTime">10. Óra neve:</label>
+        <input type="text" id="class_10" name="ORA_10" />
+        <label for="classTime">11. Óra neve:</label>
+        <input type="text" id="class_11" name="ORA_11" />
+        <label for="classTime">12. Óra neve:</label>
+        <input type="text" id="class_12" name="ORA_12" />
 
-            <button type="submit">Hozzáadás</button>
-        </form>
+        <button type="submit">Hozzáadás</button>
+      </form>
     </div>
 
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

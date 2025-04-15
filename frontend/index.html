@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orarend</title>
-</head>
-<body>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Főoldal</a></li>
+        <li><a href="addOrEditClass/index.html">Szerkesztés</a></li>
+      </ul>
+    </nav>
+    <form id="form">
+      <h1>Melyik napot szeretné?</h1>
 
-<form id="form">
-    <h1>Melyik napot szeretné?</h1>
-
-    <select name="day" id="day">
+      <select name="day" id="day">
         <option value="hetfo">Hétfő</option>
         <option value="kedd">Kedd</option>
         <option value="szerda">Szerda</option>
@@ -18,11 +25,11 @@
         <option value="pentek">Péntek</option>
         <option value="szombat">Szombat</option>
         <option value="vasarnap">Vasárnap</option>
-    </select>
+      </select>
 
-    <button type="submit">Küldés</button>
-</form>
-<div id="result"></div>
-<script src="script.js"></script>
-</body>
+      <button type="submit">Küldés</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+  </body>
 </html>
